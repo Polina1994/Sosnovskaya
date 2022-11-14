@@ -1,0 +1,12 @@
+@import url(../style/fonts.css);
+@import url(../style/header/header.css);
+@import url(../style/advantage/advantage.css);
+@import url(../style/apart/apart.css);
+@import url(../style/apart-info/apart-info.css);
+@import url(../style/infrastructure/infrastructure.css);
+@import url(../style/ipoteka/ipoteka.css);
+
+.body {
+    margin: 0;
+    background-color: #202D45;
+}

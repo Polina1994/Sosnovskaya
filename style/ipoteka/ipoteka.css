@@ -1,0 +1,194 @@
+.ipoteka {
+    position: relative;
+}
+
+.ipoteka-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 85px;
+    color: #EDF0F4;
+    margin-left: 124px;
+}
+
+.ipoteka-choice {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    display: flex;
+    gap: 10px;
+    margin-left: 124px;
+    margin-top: 30px;
+}
+
+.ipoteka-choice-list {
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    padding: 18px 30px;
+    width: max-content;
+    margin: 0;
+}
+
+.ipoteka-active {
+    border: 2px solid #E6BF9B;
+}
+
+.bank-choice {
+    display: flex;
+    flex-direction: row;
+}
+
+.bank {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 124px;
+}
+
+.bank:last-child {
+    margin-left: 50px;
+}
+
+.bank-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #EDF0F4;
+    margin: 0;
+}
+
+.bank-desc {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    color: #BCC1C9;
+    width: 380px;
+}
+
+.ipoteka-blur {
+    background-color: rgba(0, 10, 255, 0.4);
+    filter: blur(450px);
+    width: 450px;
+    height: 450px;
+    position: absolute;
+}
+
+.partner {}
+
+.partner-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #EDF0F4;
+    margin-left: 124px;
+    margin-top: 43px;
+    margin-bottom: 20px;
+}
+
+.table {
+    margin: 0 124px;
+}
+
+.column {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+    color: #727B8C;
+    padding-bottom: 20px;
+    text-align: left;
+    padding-right: 20px;
+    border-bottom: 2px solid #E5BF9B;
+}
+
+.row {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    color: #EDF0F4;
+    padding-top: 20px;
+    padding-bottom: 16px;
+    padding-right: 100px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+
+.row-color {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 180%;
+    text-align: right;
+    color: #E5BF9B;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.row-image {
+    margin-right: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.row-bank {
+    color: #EDF0F4;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    padding-right: 83px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    padding-bottom: 16px;
+}
+
+.ipoteka-question {
+    margin-top: 60px;
+    margin-left: 124px;
+    display: flex;
+    flex-direction: row;
+}
+
+.ipoteka-bottom {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    border: 2px solid #E6BF9B;
+    padding: 18px 30px;
+}
+
+.ipoteka-question-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+.bank-blur {
+    background-color: rgba(0, 209, 255, 0.3);
+    filter: blur(450px);
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top: 300px;
+    right: 0;
+}

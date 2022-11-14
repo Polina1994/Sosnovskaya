@@ -1,0 +1,20 @@
+.apart {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.apart-img {
+    border-radius: 20px;
+    margin: 100px 20px 0 20px;
+    max-width: 1090px;
+    width: 100%;
+}
+
+.apart-img-right {
+    margin-top: 100px;
+}
+
+.apart-img-left {
+    margin-top: 100px;
+}

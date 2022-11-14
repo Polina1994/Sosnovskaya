@@ -1,0 +1,150 @@
+.header {
+    background-image: url(../../images/main-cover.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.header-nav-title {
+    font-family: 'Playfair Display';
+    color: #E5BF9B;
+    font-size: 20px;
+    margin: 0;
+    padding-top: 23px;
+}
+
+.header-nav-sub {
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    margin-top: 42px;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.nav-item {
+    list-style-type: none;
+    color: #fff;
+    margin-left: 30px;
+    line-height: 19px;
+
+}
+
+.nav-tel {
+    display: flex;
+    flex-direction: row;
+    margin-top: 23px;
+}
+
+.nav-tel-phone {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+}
+
+.nav-tel-img {
+    width: 42px;
+    height: 42px;
+    margin-right: 12px;
+}
+
+.main-title {
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 200px;
+    color: #E5BF9B;
+    margin-top: 167px;
+    margin-bottom: 0;
+    margin-left: 130px;
+    line-height: 266.6px;
+}
+
+.main-sub {
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 146px;
+    color: rgba(255, 255, 255, 1);
+    left: 130px;
+    margin: 0;
+    z-index: 5;
+    position: absolute;
+}
+
+.main-desc {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 160px;
+    margin-bottom: 0;
+    margin-left: 130px;
+    width: 615px;
+    line-height: 180%;
+}
+
+.main-list {
+    margin-left: 130px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 271px;
+}
+
+.main-list-cell {
+    margin-top: 29px;
+}
+
+.main-list-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #EDF0F4;
+    margin: 0;
+}
+
+.main-list-ital {
+    color: #E5BF9B;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 79.98px;
+}
+
+.main-list-desc {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #949AA5;
+    width: 180px;
+    margin-right: 50px;
+    margin-top: 14px;
+    margin-bottom: 0;
+}
+
+.main-overlay {
+    position: absolute;
+    top: 132px;
+    right: 130px;
+    object-fit: cover;
+    object-position: center;
+}
