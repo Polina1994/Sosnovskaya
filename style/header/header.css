@@ -36,6 +36,11 @@
 }
 
 .nav-item {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
     list-style-type: none;
     color: #fff;
     margin-left: 30px;

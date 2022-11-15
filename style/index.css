@@ -5,8 +5,12 @@
 @import url(../style/apart-info/apart-info.css);
 @import url(../style/infrastructure/infrastructure.css);
 @import url(../style/ipoteka/ipoteka.css);
+@import url(../style/map/map.css);
+@import url(../style/contact/contact.css);
+@import url(../style/footer/footer.css);
 
 .body {
     margin: 0;
     background-color: #202D45;
+
 }

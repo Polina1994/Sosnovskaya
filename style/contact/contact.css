@@ -1,0 +1,111 @@
+.contact {
+    position: relative;
+}
+
+.contact-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 85px;
+    color: #EDF0F4;
+    margin: 0 0 0 124px;
+}
+
+.contact-info {
+    margin: 40px 40px 0;
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 124px; */
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact-tel {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-tel-phone {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.contact-tel-img {
+    padding-right: 12px;
+}
+
+.contact-tel-desc {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    color: #BCC1C9;
+    width: 250px;
+    margin-top: 30px;
+}
+
+.contact-info-document {
+    margin-top: -35px;
+}
+
+.document-build {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: right;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #E5BF9B;
+    margin: 0;
+}
+
+.document-build:last-child {
+    margin-top: 35px;
+}
+
+.adress {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    color: #BCC1C9;
+    width: 530px;
+    margin: 60px 0 0 124px;
+}
+
+.adress-span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    color: #FFFFFF;
+}
+
+.adress-button {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    background-color: #202D45;
+    padding: 18px 30px;
+    border: 2px solid #E5BF9B;
+    position: absolute;
+    right: 136px;
+    top: 350px;
+}
