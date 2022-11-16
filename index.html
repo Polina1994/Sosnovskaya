@@ -14,10 +14,7 @@
         <header class="header">
             <nav class="header-nav">
                 <img src="./images/main-overlay.png" class="main-overlay" />
-                <div>
-                    <h1 class="header-nav-title">8-я</h1>
-                    <p class="header-nav-sub">СОСНЕВСКАЯ</p>
-                </div>
+                <img class="header-logo" src="./images/logo.svg" />
 
                 <ul class="nav">
                     <li class="nav-item">Преимущества</li>
@@ -27,10 +24,7 @@
                     <li class="nav-item">Контакты</li>
                 </ul>
 
-                <div class="nav-tel">
-                    <img class="nav-tel-img" src="./images/phone.svg" />
-                    <p class="nav-tel-phone">+7 (495) 255-48-24</p>
-                </div>
+                <p class="nav-tel-phone"><img class="nav-tel-img" src="./images/phone.svg" />+7 (495) 255-48-24</p>
             </nav>
 
             <div class="main">
@@ -60,9 +54,48 @@
                     </div>
                 </div>
             </div>
+        </header>
+
+        <header class="header-mobile">
+            <nav class="header-nav">
+                <div>
+                    <button class="burger-button"><img class="burger-img" src="./images/burger.svg" /></button>
+                    <img class="header-logo" src="./images/logo.svg" />
+                </div>
+                <p class="nav-tel-phone"><img class="nav-tel-img" src="./images/phone.svg" />+7 (495) 255-48-24</p>
+            </nav>
+
+            <div class="main">
+                <img class="mobile-overlay" src="./images/overlay-mobile.png" />
+                <h2 class="main-title">8-я</h2>
+                <p class="main-sub">СОСНЕВСКАЯ</p>
+
+                <p class="main-desc">Удивлять — вот кредо проекта. Давать больше, чем принято стандартами, предугадывать
+                    желания. Комплекс создается по принципу клубной самодостаточности для взыскательных клиентов
+                    — здесь предусмотрено все для каждого члена семьи.</p>
+
+                <div class="main-list">
+                    <div class="main-list-cell">
+                        <p class="main-list-title"><span class=main-list-ital>14 <span
+                                    style="color: #949AA5; opacity: 0.2;"> /
+                                </span> </span>Минут</p>
+                        <p class="main-list-desc">Пешком до метро «Тульская»</p>
+                    </div>
+                    <div class="main-list-cell">
+                        <p class="main-list-title"><span class=main-list-ital>21 <span
+                                    style="color: #949AA5; opacity: 0.2;"> / </span> </span>Минута</p>
+                        <p class="main-list-desc">Пешком до метро «Тульская»</p>
+                    </div>
+                    <div class="main-list-cell">
+                        <p class="main-list-title"><span class=main-list-ital>100 <span
+                                    style="color: #949AA5; opacity: 0.2;"> / </span></span>Метров</p>
+                        <p class="main-list-desc">До кремля</p>
+                    </div>
+                </div>
+            </div>
 
         </header>
-        <section class="advantage">
+        <!-- <section class="advantage">
             <div class="advantage-blur"></div>
             <div class="blur"></div>
             <h1 class="advantage-title">Преимущества</h1>
@@ -432,8 +465,27 @@
             </ul>
 
             <p class="footer-phone"><img class="footer-phone-img" src="./images/phone.svg" />+7 (495) 255-48-24</p>
-        </footer>
+        </footer> -->
     </div>
+
+    <div class="burger-menu">
+        <div class="burger-background"></div>
+        <nav class="burger-menu__nav">
+            <img class="burger-logo" src="./images/burger-logo.svg" />
+            <ul class="menu">
+
+                <li class="burger-item"><a class="burger-link" href="#">Преимущества</a></li>
+                <li class="burger-item"><a class="burger-link" href="#">Инфраструктура</a></li>
+                <li class="burger-item"><a class="burger-link" href="#">Квартиры</a></li>
+                <li class="burger-item"><a class="burger-link" href="#">Ипотека</a></li>
+                <li class="burger-item"><a class="burger-link" href="#">Контакты</a></li>
+
+            </ul>
+            <p class="burger-tel-phone"><img class="nav-tel-img" src="./images/burger-tel.svg" />+7 (495) 255-48-24
+            </p>
+        </nav>
+    </div>
+    <script src="./js/burger.js"></script>
 </body>
 
 </html>

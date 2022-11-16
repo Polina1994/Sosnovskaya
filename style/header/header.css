@@ -5,6 +5,10 @@
     background-position: center;
 }
 
+.header-logo {
+    margin-top: 23px;
+}
+
 .header-nav {
     display: flex;
     flex-direction: row;
@@ -48,11 +52,6 @@
 
 }
 
-.nav-tel {
-    display: flex;
-    flex-direction: row;
-    margin-top: 23px;
-}
 
 .nav-tel-phone {
     margin-top: 10px;
@@ -60,7 +59,10 @@
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: 18px;
+    line-height: 22px;
     color: #fff;
+    display: flex;
+    align-items: center;
 }
 
 .nav-tel-img {
@@ -121,6 +123,7 @@
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
+    line-height: 18px;
     color: #EDF0F4;
     margin: 0;
 }
@@ -130,7 +133,7 @@
     font-family: 'Playfair Display';
     font-weight: 400;
     font-size: 60px;
-    line-height: 79.98px;
+    line-height: 80px;
 }
 
 .main-list-desc {
@@ -148,8 +151,78 @@
 
 .main-overlay {
     position: absolute;
-    top: 132px;
-    right: 130px;
-    object-fit: cover;
+    top: 126px;
+    right: 125px;
+    object-fit: contain;
     object-position: center;
+}
+
+.mobile-overlay {
+    position: absolute;
+    top: 14%;
+    right: 0;
+    object-fit: fill;
+    object-position: left;
+    z-index: 2;
+}
+
+.header-mobile {
+    background-image: url(../../images/main-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .header {
+        display: block;
+    }
+
+    .header-mobile {
+        display: none;
+    }
+}
+
+@media all and (max-width: 1023px) {
+    .header {
+        display: none;
+    }
+
+    .header-mobile {
+        display: block;
+    }
+
+    .header-nav {
+        justify-content: space-between;
+        padding: 0 20px 0 20px;
+    }
+
+    .header-logo {
+        margin-left: 24px;
+    }
+
+    .main-title {
+        font-size: 140px;
+        line-height: 187px;
+        margin-left: 24px;
+    }
+
+    .main-sub {
+        font-size: 80px;
+        line-height: 98px;
+        left: 24px;
+    }
+
+    .main-desc {
+        width: 462px;
+        margin-left: 24px;
+        margin-top: 100px;
+    }
+
+    .main-list {
+        margin-left: 24px;
+        display: grid;
+        grid-template-columns: 250px 250px;
+    }
+
 }

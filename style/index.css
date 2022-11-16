@@ -8,6 +8,7 @@
 @import url(../style/map/map.css);
 @import url(../style/contact/contact.css);
 @import url(../style/footer/footer.css);
+@import url(../style/burger/burger.css);
 
 .body {
     margin: 0;
